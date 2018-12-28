@@ -9,7 +9,7 @@ const NavBar = () => {
       <AppBar position ="static" >
         <ToolBar>
           <Typography variant ="title" color ='inherit'>
-            Trophy Case NavBar
+            TrophyCase 
           </Typography>
         </ToolBar>
       </AppBar>

@@ -9,7 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 // import {createMuiTheme} from '@material-ui/core/style';
-import teal from '@material-ui/core/colors/teal';
+// import teal from '@material-ui/core/colors/teal';
 import './card.css';
 // this is for the color theme (NOT WORKING YET)
 const theme= createMuiTheme({
