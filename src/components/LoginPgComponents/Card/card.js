@@ -1,3 +1,5 @@
+//this card is for the initial login
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles, createMuiTheme } from '@material-ui/core/styles';

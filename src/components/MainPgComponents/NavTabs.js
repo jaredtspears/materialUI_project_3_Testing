@@ -5,40 +5,36 @@ function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
+      {/* link to MainPg content */}
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       <li className="nav-item">
+      {/* link to LoginLogout option visible on MainPg */}
         <Link
-          to="/about"
-          className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          to="/login"
+          className={window.location.pathname === "/loginPg" ? "nav-link active" : "nav-link"}
         >
-          About
+          Login/Logout
         </Link>
       </li>
       <li className="nav-item">
+      {/* link to CollectionsPg corresponding to Searches of collections in the DB */}
         <Link
-          to="/blog"
-          className={window.location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+          to="/Collections"
+          className={window.location.pathname === "/CollectionsPg" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Collections
         </Link>
       </li>
       <li className="nav-item">
+      {/* After MVP is met - Contactpg might be implimented */}
         <Link
           to="/contact"
           className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={window.location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
         </Link>
       </li>
     </ul>
